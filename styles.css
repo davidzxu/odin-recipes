@@ -3,6 +3,7 @@
     font-family: "Times New Roman", sans-serif;
     background-color: rgb(249, 199, 132);
     font-size: 20px;
+    box-sizing: border-box;
 }
 
 h1,
@@ -36,17 +37,20 @@ a {
     font-weight: 400;
 }
 
+.index-image,
+.recipe-image {
+    width: auto;
+    border: 8px, solid, rgb(255, 140, 66);
+}
+
 .index-image {
     height: 200px;
-    width: auto;
 }
 
 .recipe-image {
     height: 250px;
-    width: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .index-list {
