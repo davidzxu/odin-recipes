@@ -60,5 +60,5 @@ a {
 }
 
 .index-list-items {
-    margin-right: 375px;
+    flex: auto;
 }
